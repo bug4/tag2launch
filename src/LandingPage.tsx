@@ -30,7 +30,7 @@ export default function LandingPage() {
               Turn <span className="text-[#00FF66]">IG/TikTok tags</span> into <span className="text-slate-100">creator coins</span>
             </h1>
             <p className="mt-4 text-slate-400 text-lg">
-              Tag our account on <span className="text-slate-200">Instagram</span> or <span className="text-slate-200">TikTok</span> in a comment on the video you saw. We’ll auto‑launch a coin for that creator on Bags (Solana) and route
+              Tag our account on <span className="text-slate-200">Instagram</span> or <span className="text-slate-200">TikTok</span> in a comment on the video you saw. We’ll auto-launch a coin for that creator on Bags (Solana) and route
               <span className="text-slate-100 font-semibold"> 100% of trading fees</span> to the creator. Later, the creator can connect on our site to claim.
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
@@ -40,7 +40,7 @@ export default function LandingPage() {
             <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-slate-500">
               <Badge icon={<Shield className="h-4 w-4" />} text="Creator approval first" />
               <Badge icon={<Zap className="h-4 w-4" />} text="Live in seconds" />
-              <Badge icon={<BadgeCheck className="h-4 w-4" />} text="Transparent on‑chain" />
+              <Badge icon={<BadgeCheck className="h-4 w-4" />} text="Transparent on-chain" />
             </div>
           </motion.div>
 
@@ -90,7 +90,7 @@ export default function LandingPage() {
           <motion.h2 variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} className="text-3xl md:text-4xl font-bold">
             How it works
           </motion.h2>
-          <p className="mt-3 text-slate-400">A simple 4‑step flow with creator safety built‑in.</p>
+          <p className="mt-3 text-slate-400">A simple 4-step flow with creator safety built-in.</p>
         </div>
         <motion.div
           variants={stagger}
@@ -100,7 +100,7 @@ export default function LandingPage() {
           className="mt-10 grid md:grid-cols-4 gap-6"
         >
           <motion.div variants={fadeUp}><StepCard icon={<MessageCircle className="h-5 w-5" />} title="Tag" desc="Comment on the video: tag our handle + the creator you want to support." /></motion.div>
-          <motion.div variants={fadeUp}><StepCard icon={<Users className="h-5 w-5" />} title="Validate" desc="We verify the creator and run anti‑abuse checks." /></motion.div>
+          <motion.div variants={fadeUp}><StepCard icon={<Users className="h-5 w-5" />} title="Validate" desc="We verify the creator and run anti-abuse checks." /></motion.div>
           <motion.div variants={fadeUp}><StepCard icon={<Rocket className="h-5 w-5" />} title="Launch" desc="We launch a coin on Bags (Solana) with 100% fees to the creator." /></motion.div>
           <motion.div variants={fadeUp}><StepCard icon={<CheckCircle2 className="h-5 w-5" />} title="Claim later" desc="When ready, the creator connects on our site and claims accumulated fees." /></motion.div>
         </motion.div>
@@ -133,7 +133,7 @@ export default function LandingPage() {
                   <li>We’ll ping you when a launch starts and is live.</li>
                   <li>Connect later to claim earnings — whenever you want.</li>
                 </ol>
-                <div className="p-4 rounded-2xl bg-black/40 border border-white/10 text-slate-400">Tip: Prefer co‑splits? We can support them too (total = 100%).</div>
+                <div className="p-4 rounded-2xl bg-black/40 border border-white/10 text-slate-400">Tip: Prefer co-splits? We can support them too (total = 100%).</div>
               </CardContent>
             </Card>
           </motion.div>
@@ -181,8 +181,8 @@ export default function LandingPage() {
           </div>
           <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }} className="mt-10 grid md:grid-cols-3 gap-6">
             <motion.div variants={fadeUp}><SafetyCard icon={<Lock className="h-5 w-5" />} title="Creator approval" desc="Creators approve their first launch before anything goes live." /></motion.div>
-            <motion.div variants={fadeUp}><SafetyCard icon={<Shield className="h-5 w-5" />} title="Anti‑abuse" desc="Cooldowns, blocklists, follower thresholds, and audit logs." /></motion.div>
-            <motion.div variants={fadeUp}><SafetyCard icon={<BadgeCheck className="h-5 w-5" />} title="Bags‑native" desc="We launch on Bags (Solana) for transparent, on‑chain fees." /></motion.div>
+            <motion.div variants={fadeUp}><SafetyCard icon={<Shield className="h-5 w-5" />} title="Anti-abuse" desc="Cooldowns, blocklists, follower thresholds, and audit logs." /></motion.div>
+            <motion.div variants={fadeUp}><SafetyCard icon={<BadgeCheck className="h-5 w-5" />} title="Bags-native" desc="We launch on Bags (Solana) for transparent, on-chain fees." /></motion.div>
           </motion.div>
         </div>
       </section>
@@ -211,11 +211,11 @@ export default function LandingPage() {
           </div>
           <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }} className="mt-10 grid md:grid-cols-2 gap-6">
             <motion.div variants={fadeUp}><FAQ q="Do creators need to do anything before a launch?" a="No. Fans can trigger launches by tagging. We only ask creators to approve the very first launch to avoid spoofing." /></motion.div>
-            <motion.div variants={fadeUp}><FAQ q="What royalty splits are supported?" a="Default is 100% to the creator. Co‑splits are possible (totals must equal 100%)." /></motion.div>
+            <motion.div variants={fadeUp}><FAQ q="What royalty splits are supported?" a="Default is 100% to the creator. Co-splits are possible (totals must equal 100%)." /></motion.div>
             <motion.div variants={fadeUp}><FAQ q="Which comments are detected?" a="Tags on the original video or our pinned posts on IG/TikTok." /></motion.div>
-            <motion.div variants={fadeUp}><FAQ q="How fast is a launch?" a="Usually under a minute after approval and on‑chain confirmation." /></motion.div>
+            <motion.div variants={fadeUp}><FAQ q="How fast is a launch?" a="Usually under a minute after approval and on-chain confirmation." /></motion.div>
             <motion.div variants={fadeUp}><FAQ q="How does a creator claim?" a="They simply connect on our site later to withdraw accumulated fees." /></motion.div>
-            <motion.div variants={fadeUp}><FAQ q="Are you affiliated with Bags/X/Instagram/TikTok?" a="No. We integrate with Bags for on‑chain launches and support creators on IG/TikTok." /></motion.div>
+            <motion.div variants={fadeUp}><FAQ q="Are you affiliated with Bags/X/Instagram/TikTok?" a="No. We integrate with Bags for on-chain launches and support creators on IG/TikTok." /></motion.div>
           </motion.div>
         </div>
       </section>
@@ -226,7 +226,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 text-sm">
             <div>
               <div className="font-bold text-lg">tag<span className="text-[#00FF66]">.launch</span></div>
-              <p className="mt-3 text-slate-400">Bridge IG/TikTok engagement to on‑chain creator royalties.</p>
+              <p className="mt-3 text-slate-400">Bridge IG/TikTok engagement to on-chain creator royalties.</p>
             </div>
             <div>
               <div className="font-semibold text-slate-200">Product</div>
@@ -240,10 +240,10 @@ export default function LandingPage() {
             <div>
               <div className="font-semibold text-slate-200">Company</div>
               <ul className="mt-3 space-y-2 text-slate-400">
-                <li><a href="#" className="hover:text-[#00FF66]">About</a></li>
-                <li><a href="#" className="hover:text-[#00FF66]">Contact</a></li>
-                <li><a href="#" className="hover:text-[#00FF66]">Terms</a></li>
-                <li><a href="#" className="hover:text-[#00FF66]">Privacy</a></li>
+                <li><a href="/about" className="hover:text-[#00FF66]">About</a></li>
+                <li><a href="/contact" className="hover:text-[#00FF66]">Contact</a></li>
+                <li><a href="/terms" className="hover:text-[#00FF66]">Terms</a></li>
+                <li><a href="/privacy" className="hover:text-[#00FF66]">Privacy</a></li>
               </ul>
             </div>
             <div>
@@ -287,7 +287,7 @@ function NeonHeader() {
   return (
     <header className="sticky top-0 z-40 bg-[#0b0f14]/80 backdrop-blur border-b border-white/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <a href="#" className="font-bold text-xl tracking-tight">Tag2<span className="text-[#00FF66]">Launch</span></a>
+        <a href="/" className="font-bold text-xl tracking-tight">Tag2<span className="text-[#00FF66]">Launch</span></a>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a href="#how" className="hover:text-[#00FF66]">How it works</a>
           <a href="#creators" className="hover:text-[#00FF66]">For creators</a>
@@ -323,7 +323,7 @@ function NeonBlur({ deco }: { deco: "top" | "bottom" }) {
 function NeonCTA({ children, href }: { children: React.ReactNode; href?: string }) {
   return (
     <a
-      href={href ?? "#"}
+      href={href ?? "/"}
       className="group relative inline-flex h-12 items-center justify-center rounded-full px-6 font-medium text-black active:scale-[0.98] transition-transform"
     >
       <span className="absolute -inset-0.5 rounded-full bg-[#00FF66]/60 blur-md group-hover:blur-lg transition-[filter]" aria-hidden />
@@ -337,7 +337,7 @@ function NeonCTA({ children, href }: { children: React.ReactNode; href?: string 
 function OutlineCTA({ children, href }: { children: React.ReactNode; href?: string }) {
   return (
     <a
-      href={href ?? "#"}
+      href={href ?? "/"}
       className="inline-flex h-12 items-center justify-center rounded-full px-6 font-medium border border-white/10 text-slate-200 hover:border-[#00FF66] hover:text-[#00FF66] transition-colors"
     >
       {children} <ChevronRight className="h-4 w-4 ml-2" />
