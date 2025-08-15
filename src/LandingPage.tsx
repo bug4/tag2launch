@@ -288,6 +288,7 @@ function NeonHeader() {
     <header className="sticky top-0 z-40 bg-[#0b0f14]/80 backdrop-blur border-b border-white/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <a href="/" className="font-bold text-xl tracking-tight">Tag2<span className="text-[#00FF66]">Launch</span></a>
+
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a href="#how" className="hover:text-[#00FF66]">How it works</a>
           <a href="#creators" className="hover:text-[#00FF66]">For creators</a>
@@ -295,7 +296,35 @@ function NeonHeader() {
           <a href="#security" className="hover:text-[#00FF66]">Safety</a>
           <a href="#faq" className="hover:text-[#00FF66]">FAQ</a>
         </nav>
+
+        {/* Right: Social buttons + CTA */}
         <div className="flex items-center gap-3">
+          <div className="hidden sm:flex items-center gap-2">
+            <a
+              href="https://www.tiktok.com/@tag2launch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1 rounded-full border border-white/15 text-xs sm:text-sm text-slate-300 hover:border-[#00FF66] hover:text-[#00FF66] transition-colors"
+            >
+              TikTok
+            </a>
+            <a
+              href="https://www.instagram.com/tag2launch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1 rounded-full border border-white/15 text-xs sm:text-sm text-slate-300 hover:border-[#00FF66] hover:text-[#00FF66] transition-colors"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://x.com/tag2launch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1 rounded-full border border-white/15 text-xs sm:text-sm text-slate-300 hover:border-[#00FF66] hover:text-[#00FF66] transition-colors"
+            >
+              X
+            </a>
+          </div>
           <NeonCTA href="#fans">Start a launch</NeonCTA>
         </div>
       </div>
